@@ -1,0 +1,20 @@
+import React from "react";
+
+export class CardClass extends React.Component {
+  render() {
+    const { name, age, address, phoneNumber } = this.props;
+    return (
+      <div className="card">
+        <h2 className="name">{name}</h2>
+        <div className="body">
+          <div className="label">Age:</div>
+          <div>{age}</div>
+          <div className="label">Phone:</div>
+          <div>{phoneNumber}</div>
+          <div className="label">Address:</div>
+          <div>{address}</div>
+        </div>
+      </div>
+    );
+  }
+}

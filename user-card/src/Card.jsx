@@ -1,14 +1,15 @@
-const Card = () => {
+const Card = (props) => {
+  const { name, age, address, phoneNumber } = props;
   return (
     <div className="card">
-      <h2 className="name">Kyle Cook</h2>
+      <h2 className="name">{name}</h2>
       <div className="body">
         <div className="label">Age:</div>
-        <div>27</div>
+        <div>{age}</div>
         <div className="label">Phone:</div>
-        <div>123-456-7890</div>
+        <div>{phoneNumber}</div>
         <div className="label">Address:</div>
-        <div>123 Main St.</div>
+        <div>{address}</div>
       </div>
     </div>
   );
