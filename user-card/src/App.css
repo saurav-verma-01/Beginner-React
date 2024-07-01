@@ -3,26 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  width: 100%;
-  background-color: #1a1c42;
-  color: #7979ea;
-  padding: 2rem;
 }
-hr {
-  background-color: palegreen;
-  color: yellow;
-  border: 3px solid gold;
-  margin-top: 2rem;
-}
-.green-text {
-  color: palegreen;
-}
-.purple-text {
-  color: rgb(236, 66, 236);
-}
-.red-text {
-  color: crimson;
-}
+
 .logo {
   height: 6em;
   padding: 1.5em;
